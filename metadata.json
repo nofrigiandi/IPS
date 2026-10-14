@@ -1,0 +1,6 @@
+{
+  "name": "Jelajah Bhinneka - Game Edukasi Keberagaman IPS Kelas 7",
+  "description": "Permainan interaktif edukatif mata pelajaran IPS Kelas 7 SMP dengan tema Keberagaman Suku, Agama, Budaya, dan Ras di Indonesia dalam bingkai Bhinneka Tunggal Ika.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

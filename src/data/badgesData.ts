@@ -1,0 +1,68 @@
+import { Badge } from '../types/game';
+
+export const BADGES_DATA: Badge[] = [
+  {
+    id: 'badge-start',
+    title: 'Langkah Pertama Nusantara',
+    description: 'Memulai perjalanan mempelajari keindahan keberagaman Indonesia.',
+    icon: 'Compass',
+    unlocked: true,
+    type: 'general',
+  },
+  {
+    id: 'badge-matching-master',
+    title: 'Maestro Pasangan Budaya',
+    description: 'Menyelesaikan mini-game Cocokkan Pasangan Budaya tanpa kesalahan.',
+    icon: 'Layers',
+    unlocked: false,
+    type: 'adventure',
+  },
+  {
+    id: 'badge-clue-detective',
+    title: 'Detektif Warisan Ulung',
+    description: 'Menebak misteri budaya hanya dengan melihat 1 petunjuk pertama.',
+    icon: 'Search',
+    unlocked: false,
+    type: 'adventure',
+  },
+  {
+    id: 'badge-quiz-ace',
+    title: 'Cendekiawan IPS Kelas 7',
+    description: 'Mencapai skor kuis cerdas cermat 80 poin atau lebih.',
+    icon: 'Award',
+    unlocked: false,
+    type: 'quiz',
+  },
+  {
+    id: 'badge-quiz-perfect',
+    title: 'Bintang Sempurna IPS',
+    description: 'Menjawab seluruh pertanyaan kuis dengan benar tanpa salah.',
+    icon: 'Crown',
+    unlocked: false,
+    type: 'quiz',
+  },
+  {
+    id: 'badge-tolerance-champion',
+    title: 'Duta Harmoni & Toleransi',
+    description: 'Memilih keputusan paling bijak di semua skenario Detektif Toleransi.',
+    icon: 'HeartHandshake',
+    unlocked: false,
+    type: 'dilemma',
+  },
+  {
+    id: 'badge-atlas-explorer',
+    title: 'Kolektor Ensiklopedia Budaya',
+    description: 'Mempelajari artefak dari seluruh 6 gugus kepulauan di Atlas Budaya.',
+    icon: 'BookOpen',
+    unlocked: false,
+    type: 'atlas',
+  },
+  {
+    id: 'badge-pancasila-hero',
+    title: 'Ksatria Bhinneka Tunggal Ika',
+    description: 'Mengumpulkan lebih dari 600 total XP dan mencapai predikat Pahlawan Kebinekaan.',
+    icon: 'ShieldCheck',
+    unlocked: false,
+    type: 'general',
+  },
+];
